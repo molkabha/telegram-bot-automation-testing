@@ -1,0 +1,223 @@
+{
+    "report_metadata": {
+        "generated_at": "2025-07-27T15:59:20.825338",
+        "total_tests": 26,
+        "passed": 26,
+        "failed": 0,
+        "errors": 0,
+        "bot_config": {
+            "bot_username": "molka_test_bot",
+            "test_chat_id": "6879507167"
+        }
+    },
+    "test_results": [
+        {
+            "test_name": "BasicMessageAPI",
+            "status": "PASSED",
+            "execution_time": 0.3204622268676758,
+            "timestamp": "2025-07-27T15:58:53.128924",
+            "screenshot_path": "screenshots\\BasicMessageAPI_20250727_155852.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "BasicMessageUI",
+            "status": "PASSED",
+            "execution_time": 0.22797131538391113,
+            "timestamp": "2025-07-27T15:58:53.360478",
+            "screenshot_path": "screenshots\\BasicMessageUI_20250727_155853.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "StartCommand",
+            "status": "PASSED",
+            "execution_time": 0.12634634971618652,
+            "timestamp": "2025-07-27T15:58:53.490617",
+            "screenshot_path": "screenshots\\StartCommand_20250727_155853.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "HelpCommandAPI",
+            "status": "PASSED",
+            "execution_time": 0.12701797485351562,
+            "timestamp": "2025-07-27T15:58:53.622556",
+            "screenshot_path": "screenshots\\HelpCommandAPI_20250727_155853.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "HelpCommandUI",
+            "status": "PASSED",
+            "execution_time": 0.22874975204467773,
+            "timestamp": "2025-07-27T15:58:53.851360",
+            "screenshot_path": "screenshots\\HelpCommandUI_20250727_155853.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "Greeting_Hello_API",
+            "status": "PASSED",
+            "execution_time": 0.12778902053833008,
+            "timestamp": "2025-07-27T15:58:53.984379",
+            "screenshot_path": "screenshots\\Greeting_Hello_API_20250727_155853.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "Greeting_Hi_API",
+            "status": "PASSED",
+            "execution_time": 0.12581849098205566,
+            "timestamp": "2025-07-27T15:58:55.110670",
+            "screenshot_path": "screenshots\\Greeting_Hi_API_20250727_155855.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "Greeting_Hey_API",
+            "status": "PASSED",
+            "execution_time": 0.13582301139831543,
+            "timestamp": "2025-07-27T15:58:56.246809",
+            "screenshot_path": "screenshots\\Greeting_Hey_API_20250727_155856.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "Greeting_Good_morning_API",
+            "status": "PASSED",
+            "execution_time": 0.1346907615661621,
+            "timestamp": "2025-07-27T15:58:57.381811",
+            "screenshot_path": "screenshots\\Greeting_Good_morning_API_20250727_155857.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "Greeting_Greetings_API",
+            "status": "PASSED",
+            "execution_time": 0.1323070526123047,
+            "timestamp": "2025-07-27T15:58:58.514416",
+            "screenshot_path": "screenshots\\Greeting_Greetings_API_20250727_155858.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "Command_start_API",
+            "status": "PASSED",
+            "execution_time": 0.1282041072845459,
+            "timestamp": "2025-07-27T15:58:59.650122",
+            "screenshot_path": "screenshots\\Command_start_API_20250727_155859.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "Command_help_API",
+            "status": "PASSED",
+            "execution_time": 0.1287369728088379,
+            "timestamp": "2025-07-27T15:59:00.779435",
+            "screenshot_path": "screenshots\\Command_help_API_20250727_155900.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "Command_about_API",
+            "status": "PASSED",
+            "execution_time": 0.12463951110839844,
+            "timestamp": "2025-07-27T15:59:01.904479",
+            "screenshot_path": "screenshots\\Command_about_API_20250727_155901.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "Command_info_API",
+            "status": "PASSED",
+            "execution_time": 0.11824226379394531,
+            "timestamp": "2025-07-27T15:59:03.023148",
+            "screenshot_path": "screenshots\\Command_info_API_20250727_155903.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "Command_menu_API",
+            "status": "PASSED",
+            "execution_time": 0.1253519058227539,
+            "timestamp": "2025-07-27T15:59:04.148864",
+            "screenshot_path": "screenshots\\Command_menu_API_20250727_155904.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "UIFlow_Hello_UI",
+            "status": "PASSED",
+            "execution_time": 0.23110318183898926,
+            "timestamp": "2025-07-27T15:59:05.383297",
+            "screenshot_path": "screenshots\\UIFlow_Hello_UI_20250727_155905.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "UIFlow_start_UI",
+            "status": "PASSED",
+            "execution_time": 0.34525036811828613,
+            "timestamp": "2025-07-27T15:59:07.729391",
+            "screenshot_path": "screenshots\\UIFlow_start_UI_20250727_155907.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "UIFlow_What_can_you_do_UI",
+            "status": "PASSED",
+            "execution_time": 0.22888398170471191,
+            "timestamp": "2025-07-27T15:59:09.958890",
+            "screenshot_path": "screenshots\\UIFlow_What_can_you_do_UI_20250727_155909.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "InvalidCommand_nonexistent_API",
+            "status": "PASSED",
+            "execution_time": 0.1262805461883545,
+            "timestamp": "2025-07-27T15:59:12.088555",
+            "screenshot_path": "screenshots\\InvalidCommand_nonexistent_API_20250727_155912.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "InvalidCommand_invalid123_API",
+            "status": "PASSED",
+            "execution_time": 0.12835407257080078,
+            "timestamp": "2025-07-27T15:59:13.217620",
+            "screenshot_path": "screenshots\\InvalidCommand_invalid123_API_20250727_155913.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "InvalidCommand_test_command_that_does_not_exist_API",
+            "status": "PASSED",
+            "execution_time": 0.13558053970336914,
+            "timestamp": "2025-07-27T15:59:14.353387",
+            "screenshot_path": "screenshots\\InvalidCommand_test_command_that_does_not_exist_API_20250727_155914.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "SpecialChars_20_API",
+            "status": "PASSED",
+            "execution_time": 0.1743636131286621,
+            "timestamp": "2025-07-27T15:59:15.533814",
+            "screenshot_path": "screenshots\\SpecialChars_20_API_20250727_155915.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "SpecialChars_644_API",
+            "status": "PASSED",
+            "execution_time": 0.1285250186920166,
+            "timestamp": "2025-07-27T15:59:16.662765",
+            "screenshot_path": "screenshots\\SpecialChars_644_API_20250727_155916.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "SpecialChars_352_API",
+            "status": "PASSED",
+            "execution_time": 0.2238774299621582,
+            "timestamp": "2025-07-27T15:59:17.887315",
+            "screenshot_path": "screenshots\\SpecialChars_352_API_20250727_155917.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "SpecialChars_7_API",
+            "status": "PASSED",
+            "execution_time": 0.1328887939453125,
+            "timestamp": "2025-07-27T15:59:19.020834",
+            "screenshot_path": "screenshots\\SpecialChars_7_API_20250727_155918.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "ResultGeneration_API",
+            "status": "PASSED",
+            "execution_time": 0.1271672248840332,
+            "timestamp": "2025-07-27T15:59:20.154720",
+            "screenshot_path": "screenshots\\ResultGeneration_API_20250727_155920.png",
+            "error_message": ""
+        }
+    ]
+}

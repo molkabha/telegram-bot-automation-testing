@@ -1,0 +1,180 @@
+{
+    "report_metadata": {
+        "total_tests": 34,
+        "passed": 34,
+        "failed": 0,
+        "errors": 0
+    },
+    "test_results": [
+        {
+            "test_name": "BasicMessageAPI",
+            "status": "PASSED",
+            "execution_time": 0.1
+        },
+        {
+            "test_name": "BasicMessageUI",
+            "status": "PASSED",
+            "execution_time": 0.2
+        },
+        {
+            "test_name": "StartCommand",
+            "status": "PASSED",
+            "execution_time": 0.1
+        },
+        {
+            "test_name": "HelpCommandAPI",
+            "status": "PASSED",
+            "execution_time": 0.1
+        },
+        {
+            "test_name": "HelpCommandUI",
+            "status": "PASSED",
+            "execution_time": 0.2
+        },
+        {
+            "test_name": "Greeting_Hello_API",
+            "status": "PASSED",
+            "execution_time": 0.1
+        },
+        {
+            "test_name": "Greeting_Hi_API",
+            "status": "PASSED",
+            "execution_time": 0.1
+        },
+        {
+            "test_name": "Greeting_Hey_API",
+            "status": "PASSED",
+            "execution_time": 0.1
+        },
+        {
+            "test_name": "Greeting_Good_morning_API",
+            "status": "PASSED",
+            "execution_time": 0.1
+        },
+        {
+            "test_name": "Greeting_Greetings_API",
+            "status": "PASSED",
+            "execution_time": 0.1
+        },
+        {
+            "test_name": "Command_start_API",
+            "status": "PASSED",
+            "execution_time": 0.1
+        },
+        {
+            "test_name": "Command_help_API",
+            "status": "PASSED",
+            "execution_time": 0.1
+        },
+        {
+            "test_name": "Command_about_API",
+            "status": "PASSED",
+            "execution_time": 0.1
+        },
+        {
+            "test_name": "Command_info_API",
+            "status": "PASSED",
+            "execution_time": 0.1
+        },
+        {
+            "test_name": "Command_menu_API",
+            "status": "PASSED",
+            "execution_time": 0.1
+        },
+        {
+            "test_name": "UIFlow_Hello_UI",
+            "status": "PASSED",
+            "execution_time": 0.2
+        },
+        {
+            "test_name": "UIFlow_start_UI",
+            "status": "PASSED",
+            "execution_time": 0.2
+        },
+        {
+            "test_name": "UIFlow_What_can_you_do_UI",
+            "status": "PASSED",
+            "execution_time": 0.2
+        },
+        {
+            "test_name": "InvalidCommand_nonexistent_API",
+            "status": "PASSED",
+            "execution_time": 0.1
+        },
+        {
+            "test_name": "InvalidCommand_invalid123_API",
+            "status": "PASSED",
+            "execution_time": 0.1
+        },
+        {
+            "test_name": "InvalidCommand_test_command_that_does_not_exist_API",
+            "status": "PASSED",
+            "execution_time": 0.1
+        },
+        {
+            "test_name": "SpecialChars_3_API",
+            "status": "PASSED",
+            "execution_time": 0.1
+        },
+        {
+            "test_name": "SpecialChars_204_API",
+            "status": "PASSED",
+            "execution_time": 0.1
+        },
+        {
+            "test_name": "SpecialChars_535_API",
+            "status": "PASSED",
+            "execution_time": 0.1
+        },
+        {
+            "test_name": "SpecialChars_84_API",
+            "status": "PASSED",
+            "execution_time": 0.1
+        },
+        {
+            "test_name": "ResponseTime_1_API",
+            "status": "PASSED",
+            "execution_time": 0.1
+        },
+        {
+            "test_name": "ResponseTime_2_API",
+            "status": "PASSED",
+            "execution_time": 0.1
+        },
+        {
+            "test_name": "ResponseTime_3_API",
+            "status": "PASSED",
+            "execution_time": 0.1
+        },
+        {
+            "test_name": "ResponseTime_4_API",
+            "status": "PASSED",
+            "execution_time": 0.1
+        },
+        {
+            "test_name": "ResponseTime_5_API",
+            "status": "PASSED",
+            "execution_time": 0.1
+        },
+        {
+            "test_name": "ConversationStep_1_API",
+            "status": "PASSED",
+            "execution_time": 0.1
+        },
+        {
+            "test_name": "ConversationStep_2_API",
+            "status": "PASSED",
+            "execution_time": 0.1
+        },
+        {
+            "test_name": "ConversationStep_3_API",
+            "status": "PASSED",
+            "execution_time": 0.1
+        },
+        {
+            "test_name": "ResultGeneration_API",
+            "status": "PASSED",
+            "execution_time": 0.1
+        }
+    ]
+}

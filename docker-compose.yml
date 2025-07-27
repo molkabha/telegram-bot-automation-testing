@@ -1,0 +1,138 @@
+# Docker Compose for Telegram Bot Testing Framework
+version: '3.8'
+
+services:
+  # Main testing service
+  telegram-bot-tests:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: telegram-bot-test-framework
+    environment:
+      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
+      - TELEGRAM_BOT_USERNAME=${TELEGRAM_BOT_USERNAME}
+      - TELEGRAM_TEST_CHAT_ID=${TELEGRAM_TEST_CHAT_ID}
+      - HEADLESS=true
+      - CI=true
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - ./reports:/app/reports
+      - ./screenshots:/app/screenshots
+      - ./logs:/app/logs
+      - ./test_data:/app/test_data
+    networks:
+      - test-network
+    profiles:
+      - testing
+
+  # Smoke tests - Quick validation
+  smoke-tests:
+    extends: telegram-bot-tests
+    container_name: telegram-bot-smoke-tests
+    command: python -m pytest -m smoke --html=reports/smoke-test-report.html --junitxml=reports/smoke-junit.xml
+    profiles:
+      - smoke
+
+  # API tests only
+  api-tests:
+    extends: telegram-bot-tests
+    container_name: telegram-bot-api-tests
+    command: python -m pytest -m api --html=reports/api-test-report.html --junitxml=reports/api-junit.xml
+    profiles:
+      - api
+
+  # UI tests (headless)
+  ui-tests:
+    extends: telegram-bot-tests
+    container_name: telegram-bot-ui-tests
+    command: python -m pytest -m ui --html=reports/ui-test-report.html --junitxml=reports/ui-junit.xml
+    shm_size: 2gb  # Increase shared memory for Chrome
+    profiles:
+      - ui
+
+  # Performance tests
+  performance-tests:
+    extends: telegram-bot-tests
+    container_name: telegram-bot-performance-tests
+    command: python -m pytest -m slow --html=reports/performance-test-report.html --junitxml=reports/performance-junit.xml
+    profiles:
+      - performance
+
+  # All tests
+  all-tests:
+    extends: telegram-bot-tests
+    container_name: telegram-bot-all-tests
+    command: python -m pytest --html=reports/all-tests-report.html --junitxml=reports/all-junit.xml
+    profiles:
+      - all
+
+  # Test report generator
+  report-generator:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: telegram-bot-report-generator
+    volumes:
+      - ./reports:/app/reports
+      - ./screenshots:/app/screenshots
+      - ./logs:/app/logs
+    command: python scripts/generate_consolidated_report.py reports/
+    profiles:
+      - reporting
+    depends_on:
+      - telegram-bot-tests
+    networks:
+      - test-network
+
+  # Development environment with interactive shell
+  dev-shell:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: telegram-bot-dev-shell
+    environment:
+      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
+      - TELEGRAM_BOT_USERNAME=${TELEGRAM_BOT_USERNAME}
+      - TELEGRAM_TEST_CHAT_ID=${TELEGRAM_TEST_CHAT_ID}
+      - HEADLESS=false
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - .:/app
+      - ./reports:/app/reports
+      - ./screenshots:/app/screenshots
+      - ./logs:/app/logs
+    working_dir: /app
+    command: /bin/bash
+    stdin_open: true
+    tty: true
+    networks:
+      - test-network
+    profiles:
+      - dev
+
+  # Documentation server
+  docs-server:
+    image: nginx:alpine
+    container_name: telegram-bot-docs
+    ports:
+      - "8080:80"
+    volumes:
+      - ./reports:/usr/share/nginx/html/reports:ro
+      - ./docs:/usr/share/nginx/html/docs:ro
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    profiles:
+      - docs
+    networks:
+      - test-network
+
+networks:
+  test-network:
+    driver: bridge
+
+volumes:
+  test-reports:
+    driver: local
+  test-screenshots:
+    driver: local
+  test-logs:
+    driver: local

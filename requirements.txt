@@ -1,0 +1,41 @@
+# Telegram Bot Automation Testing Framework - Dependencies
+
+# Core dependencies
+requests>=2.31.0
+selenium>=4.15.0
+pytest>=7.4.0
+python-telegram-bot>=20.6
+
+# Testing and reporting
+pytest-html>=4.1.0
+pytest-xdist>=3.3.0
+allure-pytest>=2.13.0
+pytest-cov>=4.1.0
+
+# Utility libraries
+python-dotenv>=1.0.0
+pydantic>=2.4.0
+jinja2>=3.1.0
+pillow>=10.0.0
+
+# Logging and monitoring
+colorlog>=6.7.0
+structlog>=23.1.0
+python-dotenv
+
+# Development dependencies
+black>=23.9.0
+flake8>=6.1.0
+mypy>=1.6.0
+pre-commit>=3.4.0
+
+# WebDriver management
+webdriver-manager>=4.0.0
+
+# Data handling
+pandas>=2.1.0
+openpyxl>=3.1.0
+
+# Optional: For advanced reporting
+matplotlib>=3.8.0
+seaborn>=0.12.0

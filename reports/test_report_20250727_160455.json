@@ -1,0 +1,463 @@
+{
+    "report_metadata": {
+        "generated_at": "2025-07-27T16:04:55.187716",
+        "total_tests": 56,
+        "passed": 53,
+        "failed": 2,
+        "errors": 1,
+        "bot_config": {
+            "bot_username": "molka_test_bot",
+            "test_chat_id": "6879507167"
+        }
+    },
+    "test_results": [
+        {
+            "test_name": "BasicMessageAPI",
+            "status": "PASSED",
+            "execution_time": 0.23383402824401855,
+            "timestamp": "2025-07-27T16:04:06.081186",
+            "screenshot_path": "screenshots\\BasicMessageAPI_20250727_160405.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "BasicMessageUI",
+            "status": "PASSED",
+            "execution_time": 0.2325282096862793,
+            "timestamp": "2025-07-27T16:04:06.318653",
+            "screenshot_path": "screenshots\\BasicMessageUI_20250727_160406.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "StartCommand",
+            "status": "PASSED",
+            "execution_time": 0.12399554252624512,
+            "timestamp": "2025-07-27T16:04:06.447974",
+            "screenshot_path": "screenshots\\StartCommand_20250727_160406.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "HelpCommandAPI",
+            "status": "PASSED",
+            "execution_time": 0.12209439277648926,
+            "timestamp": "2025-07-27T16:04:06.573921",
+            "screenshot_path": "screenshots\\HelpCommandAPI_20250727_160406.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "HelpCommandUI",
+            "status": "PASSED",
+            "execution_time": 0.2177574634552002,
+            "timestamp": "2025-07-27T16:04:06.791705",
+            "screenshot_path": "screenshots\\HelpCommandUI_20250727_160406.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "Greeting_Hello_API",
+            "status": "PASSED",
+            "execution_time": 0.12533116340637207,
+            "timestamp": "2025-07-27T16:04:06.919445",
+            "screenshot_path": "screenshots\\Greeting_Hello_API_20250727_160406.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "Greeting_Hi_API",
+            "status": "PASSED",
+            "execution_time": 0.11574959754943848,
+            "timestamp": "2025-07-27T16:04:08.035705",
+            "screenshot_path": "screenshots\\Greeting_Hi_API_20250727_160408.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "Greeting_Hey_API",
+            "status": "PASSED",
+            "execution_time": 0.12375283241271973,
+            "timestamp": "2025-07-27T16:04:09.159613",
+            "screenshot_path": "screenshots\\Greeting_Hey_API_20250727_160409.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "Greeting_Good_morning_API",
+            "status": "PASSED",
+            "execution_time": 0.13396573066711426,
+            "timestamp": "2025-07-27T16:04:10.294158",
+            "screenshot_path": "screenshots\\Greeting_Good_morning_API_20250727_160410.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "Greeting_Greetings_API",
+            "status": "PASSED",
+            "execution_time": 0.11710166931152344,
+            "timestamp": "2025-07-27T16:04:11.411611",
+            "screenshot_path": "screenshots\\Greeting_Greetings_API_20250727_160411.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "Command_start_API",
+            "status": "PASSED",
+            "execution_time": 0.12525320053100586,
+            "timestamp": "2025-07-27T16:04:12.542081",
+            "screenshot_path": "screenshots\\Command_start_API_20250727_160412.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "Command_help_API",
+            "status": "PASSED",
+            "execution_time": 0.12134027481079102,
+            "timestamp": "2025-07-27T16:04:13.664056",
+            "screenshot_path": "screenshots\\Command_help_API_20250727_160413.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "Command_about_API",
+            "status": "PASSED",
+            "execution_time": 0.13040852546691895,
+            "timestamp": "2025-07-27T16:04:14.794568",
+            "screenshot_path": "screenshots\\Command_about_API_20250727_160414.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "Command_info_API",
+            "status": "PASSED",
+            "execution_time": 0.1244044303894043,
+            "timestamp": "2025-07-27T16:04:15.919656",
+            "screenshot_path": "screenshots\\Command_info_API_20250727_160415.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "Command_menu_API",
+            "status": "PASSED",
+            "execution_time": 0.11442971229553223,
+            "timestamp": "2025-07-27T16:04:17.034320",
+            "screenshot_path": "screenshots\\Command_menu_API_20250727_160417.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "UIFlow_Hello_UI",
+            "status": "PASSED",
+            "execution_time": 0.2172691822052002,
+            "timestamp": "2025-07-27T16:04:18.255815",
+            "screenshot_path": "screenshots\\UIFlow_Hello_UI_20250727_160418.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "UIFlow_start_UI",
+            "status": "PASSED",
+            "execution_time": 0.21427273750305176,
+            "timestamp": "2025-07-27T16:04:20.470447",
+            "screenshot_path": "screenshots\\UIFlow_start_UI_20250727_160420.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "UIFlow_What_can_you_do_UI",
+            "status": "PASSED",
+            "execution_time": 0.22881340980529785,
+            "timestamp": "2025-07-27T16:04:22.699874",
+            "screenshot_path": "screenshots\\UIFlow_What_can_you_do_UI_20250727_160422.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "InvalidCommand_nonexistent_API",
+            "status": "PASSED",
+            "execution_time": 0.12430810928344727,
+            "timestamp": "2025-07-27T16:04:24.827610",
+            "screenshot_path": "screenshots\\InvalidCommand_nonexistent_API_20250727_160424.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "InvalidCommand_invalid123_API",
+            "status": "PASSED",
+            "execution_time": 0.127899169921875,
+            "timestamp": "2025-07-27T16:04:25.955992",
+            "screenshot_path": "screenshots\\InvalidCommand_invalid123_API_20250727_160425.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "InvalidCommand_test_command_that_does_not_exist_API",
+            "status": "PASSED",
+            "execution_time": 0.13176202774047852,
+            "timestamp": "2025-07-27T16:04:27.088113",
+            "screenshot_path": "screenshots\\InvalidCommand_test_command_that_does_not_exist_API_20250727_160427.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "SpecialChars_193_API",
+            "status": "PASSED",
+            "execution_time": 0.1214592456817627,
+            "timestamp": "2025-07-27T16:04:28.213621",
+            "screenshot_path": "screenshots\\SpecialChars_193_API_20250727_160428.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "SpecialChars_189_API",
+            "status": "PASSED",
+            "execution_time": 0.11602258682250977,
+            "timestamp": "2025-07-27T16:04:29.330027",
+            "screenshot_path": "screenshots\\SpecialChars_189_API_20250727_160429.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "SpecialChars_954_API",
+            "status": "PASSED",
+            "execution_time": 0.1278853416442871,
+            "timestamp": "2025-07-27T16:04:30.458196",
+            "screenshot_path": "screenshots\\SpecialChars_954_API_20250727_160430.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "SpecialChars_125_API",
+            "status": "PASSED",
+            "execution_time": 0.12039685249328613,
+            "timestamp": "2025-07-27T16:04:31.578818",
+            "screenshot_path": "screenshots\\SpecialChars_125_API_20250727_160431.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "ResultGeneration_API",
+            "status": "PASSED",
+            "execution_time": 0.12368655204772949,
+            "timestamp": "2025-07-27T16:04:32.709748",
+            "screenshot_path": "screenshots\\ResultGeneration_API_20250727_160432.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "PerformanceTest_0_API",
+            "status": "PASSED",
+            "execution_time": 0.12548494338989258,
+            "timestamp": "2025-07-27T16:04:33.372231",
+            "screenshot_path": "screenshots\\PerformanceTest_0_API_20250727_160433.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "PerformanceTest_1_API",
+            "status": "PASSED",
+            "execution_time": 0.11701107025146484,
+            "timestamp": "2025-07-27T16:04:33.489294",
+            "screenshot_path": "screenshots\\PerformanceTest_1_API_20250727_160433.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "PerformanceTest_2_API",
+            "status": "PASSED",
+            "execution_time": 0.13376069068908691,
+            "timestamp": "2025-07-27T16:04:33.623101",
+            "screenshot_path": "screenshots\\PerformanceTest_2_API_20250727_160433.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "PerformanceTest_3_API",
+            "status": "PASSED",
+            "execution_time": 0.11841535568237305,
+            "timestamp": "2025-07-27T16:04:33.741556",
+            "screenshot_path": "screenshots\\PerformanceTest_3_API_20250727_160433.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "PerformanceTest_4_API",
+            "status": "PASSED",
+            "execution_time": 0.1285865306854248,
+            "timestamp": "2025-07-27T16:04:33.870177",
+            "screenshot_path": "screenshots\\PerformanceTest_4_API_20250727_160433.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "ConcurrentMessage_0_API",
+            "status": "PASSED",
+            "execution_time": 0.1555321216583252,
+            "timestamp": "2025-07-27T16:04:34.032364",
+            "screenshot_path": "screenshots\\ConcurrentMessage_0_API_20250727_160433.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "ConcurrentMessage_1_API",
+            "status": "PASSED",
+            "execution_time": 0.15563321113586426,
+            "timestamp": "2025-07-27T16:04:34.033039",
+            "screenshot_path": "screenshots\\ConcurrentMessage_1_API_20250727_160433.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "ConcurrentMessage_2_API",
+            "status": "PASSED",
+            "execution_time": 0.158430814743042,
+            "timestamp": "2025-07-27T16:04:34.036332",
+            "screenshot_path": "screenshots\\ConcurrentMessage_2_API_20250727_160433.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "EdgeCase_0_API",
+            "status": "FAILED",
+            "execution_time": 0.12858128547668457,
+            "timestamp": "2025-07-27T16:04:34.170578",
+            "screenshot_path": "screenshots\\EdgeCase_0_API_20250727_160434.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "EdgeCase_5889_API",
+            "status": "PASSED",
+            "execution_time": 0.11827325820922852,
+            "timestamp": "2025-07-27T16:04:34.789391",
+            "screenshot_path": "screenshots\\EdgeCase_5889_API_20250727_160434.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "EdgeCase_98_API",
+            "status": "PASSED",
+            "execution_time": 0.2954893112182617,
+            "timestamp": "2025-07-27T16:04:35.585196",
+            "screenshot_path": "screenshots\\EdgeCase_98_API_20250727_160435.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "EdgeCase_8624_API",
+            "status": "PASSED",
+            "execution_time": 0.11835241317749023,
+            "timestamp": "2025-07-27T16:04:36.204111",
+            "screenshot_path": "screenshots\\EdgeCase_8624_API_20250727_160436.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "EdgeCase_3068_API",
+            "status": "PASSED",
+            "execution_time": 0.13061761856079102,
+            "timestamp": "2025-07-27T16:04:36.835012",
+            "screenshot_path": "screenshots\\EdgeCase_3068_API_20250727_160436.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "EdgeCase_1978_API",
+            "status": "PASSED",
+            "execution_time": 0.12270021438598633,
+            "timestamp": "2025-07-27T16:04:37.458025",
+            "screenshot_path": "screenshots\\EdgeCase_1978_API_20250727_160437.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "EdgeCase_579_API",
+            "status": "PASSED",
+            "execution_time": 0.11672091484069824,
+            "timestamp": "2025-07-27T16:04:38.074985",
+            "screenshot_path": "screenshots\\EdgeCase_579_API_20250727_160438.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "EdgeCase_720_API",
+            "status": "PASSED",
+            "execution_time": 0.13919854164123535,
+            "timestamp": "2025-07-27T16:04:38.714740",
+            "screenshot_path": "screenshots\\EdgeCase_720_API_20250727_160438.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "SecurityTest_283_API",
+            "status": "PASSED",
+            "execution_time": 0.12871885299682617,
+            "timestamp": "2025-07-27T16:04:39.348338",
+            "screenshot_path": "screenshots\\SecurityTest_283_API_20250727_160439.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "SecurityTest_6543_API",
+            "status": "PASSED",
+            "execution_time": 0.13602828979492188,
+            "timestamp": "2025-07-27T16:04:40.484762",
+            "screenshot_path": "screenshots\\SecurityTest_6543_API_20250727_160440.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "SecurityTest_2692_API",
+            "status": "PASSED",
+            "execution_time": 0.12125229835510254,
+            "timestamp": "2025-07-27T16:04:41.606576",
+            "screenshot_path": "screenshots\\SecurityTest_2692_API_20250727_160441.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "SecurityTest_5526_API",
+            "status": "PASSED",
+            "execution_time": 0.11952614784240723,
+            "timestamp": "2025-07-27T16:04:42.726845",
+            "screenshot_path": "screenshots\\SecurityTest_5526_API_20250727_160442.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "SecurityTest_8211_API",
+            "status": "PASSED",
+            "execution_time": 0.12173128128051758,
+            "timestamp": "2025-07-27T16:04:43.848854",
+            "screenshot_path": "screenshots\\SecurityTest_8211_API_20250727_160443.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "SecurityTest_899_API",
+            "status": "PASSED",
+            "execution_time": 0.13177180290222168,
+            "timestamp": "2025-07-27T16:04:44.981305",
+            "screenshot_path": "screenshots\\SecurityTest_899_API_20250727_160444.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "SecurityTest_8847_API",
+            "status": "PASSED",
+            "execution_time": 0.1455991268157959,
+            "timestamp": "2025-07-27T16:04:46.127227",
+            "screenshot_path": "screenshots\\SecurityTest_8847_API_20250727_160446.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "ConversationStep_0_start_API",
+            "status": "PASSED",
+            "execution_time": 0.15035200119018555,
+            "timestamp": "2025-07-27T16:04:47.284196",
+            "screenshot_path": "screenshots\\ConversationStep_0_start_API_20250727_160447.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "ConversationStep_1_Hello_API",
+            "status": "PASSED",
+            "execution_time": 0.14237546920776367,
+            "timestamp": "2025-07-27T16:04:49.426912",
+            "screenshot_path": "screenshots\\ConversationStep_1_Hello_API_20250727_160449.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "ConversationStep_2_help_API",
+            "status": "PASSED",
+            "execution_time": 0.13752961158752441,
+            "timestamp": "2025-07-27T16:04:51.565062",
+            "screenshot_path": "screenshots\\ConversationStep_2_help_API_20250727_160451.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "CleanupOperations_API",
+            "status": "PASSED",
+            "execution_time": 0.1,
+            "timestamp": "2025-07-27T16:04:54.139017",
+            "screenshot_path": null,
+            "error_message": ""
+        },
+        {
+            "test_name": "ReportTest_Success",
+            "status": "PASSED",
+            "execution_time": 0.5,
+            "timestamp": "2025-07-27T16:04:54.146569",
+            "screenshot_path": "screenshots\\ReportTest_Success_20250727_160454.png",
+            "error_message": ""
+        },
+        {
+            "test_name": "ReportTest_Failure",
+            "status": "FAILED",
+            "execution_time": 1.2,
+            "timestamp": "2025-07-27T16:04:54.179893",
+            "screenshot_path": "screenshots\\ReportTest_Failure_20250727_160454.png",
+            "error_message": "Test failed as expected"
+        },
+        {
+            "test_name": "ReportTest_Error",
+            "status": "ERROR",
+            "execution_time": 0.8,
+            "timestamp": "2025-07-27T16:04:54.220230",
+            "screenshot_path": "screenshots\\ReportTest_Error_20250727_160454.png",
+            "error_message": "Simulated error for testing"
+        }
+    ]
+}
