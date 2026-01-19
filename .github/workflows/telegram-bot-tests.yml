@@ -126,7 +126,6 @@ jobs:
     runs-on: ubuntu-latest
     needs: lint-and-security
     if: always()
-
     steps:
       - uses: actions/checkout@v4
 
@@ -174,7 +173,6 @@ jobs:
     runs-on: ubuntu-latest
     needs: [api-tests]
     if: always() && needs.api-tests.result == 'success'
-
     steps:
       - uses: actions/checkout@v4
 
@@ -211,7 +209,6 @@ jobs:
     runs-on: ubuntu-latest
     needs: [api-tests]
     if: always() && needs.api-tests.result == 'success'
-
     steps:
       - uses: actions/checkout@v4
 
@@ -249,7 +246,6 @@ jobs:
     runs-on: ubuntu-latest
     needs: [api-tests, ui-tests, docker-tests, performance-tests]
     if: always()
-
     steps:
       - uses: actions/checkout@v4
 
@@ -290,18 +286,18 @@ jobs:
               const summaryData = JSON.parse(fs.readFileSync('test-summary.json', 'utf8'));
               const { total, passed, failed, errors } = summaryData;
               const successRate = ((passed / total) * 100).toFixed(1);
-              summary = `Telegram Bot Test Results
-
-| Metric | Value |
-|--------|-------|
-| Total Tests | ${total} |
-| Passed | ${passed} |
-| Failed | ${failed} |
-| Errors | ${errors} |
-| Success Rate | ${successRate}% |
-
-${successRate >= 90 ? 'All tests passed' : successRate >= 75 ? 'Some issues found' : 'Multiple failures detected'}`;
-            } catch {
+              summary = '## Telegram Bot Test Results\n\n' +
+                '| Metric | Value |\n' +
+                '|--------|-------|\n' +
+                '| Total Tests | ' + total + ' |\n' +
+                '| Passed | ' + passed + ' |\n' +
+                '| Failed | ' + failed + ' |\n' +
+                '| Errors | ' + errors + ' |\n' +
+                '| Success Rate | ' + successRate + '% |\n\n' +
+                (successRate >= 90 ? '✅ All tests passed' : 
+                 successRate >= 75 ? '⚠️ Some issues found' : 
+                 '❌ Multiple failures detected');
+            } catch (err) {
               summary = 'Could not generate test summary';
             }
             github.rest.issues.createComment({
@@ -316,7 +312,6 @@ ${successRate >= 90 ? 'All tests passed' : successRate >= 75 ? 'Some issues foun
     runs-on: ubuntu-latest
     needs: [generate-report]
     if: always() && github.ref == 'refs/heads/main'
-
     steps:
       - name: Notify on success
         if: needs.generate-report.result == 'success'
